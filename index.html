@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시네마 예매</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo">🎬 Cinema</a>
+    <nav class="menu">
+      <a href="movies.html">영화</a><a href="booking.html">예매</a><a href="mypage.html">마이페이지</a><a href="login.html">로그인</a><a href="admin.html">관리자</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container hero-wrap">
+    <div class="hero-text">
+      <h1>오늘 볼 영화,<br>쉽게 고르고 예매하세요</h1>
+      <p>영화 목록, 상세 정보, 좌석 선택 화면까지 HTML과 CSS만으로 구성한 수업용 영화 예매 사이트입니다.</p>
+      <a href="movies.html" class="btn primary">영화 보러가기</a>
+    </div>
+    <div class="hero-card">
+      <h2>이번 주 인기 영화</h2>
+      <p>액션, 애니메이션, 드라마, SF 장르별 영화를 확인해보세요.</p>
+      <a href="booking.html" class="btn dark">빠른 예매</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-title"><div><h2>상영 예정 영화</h2><p>Flex 카드 레이아웃 복습 예제</p></div><a href="movies.html" class="btn">전체보기</a></div>
+    <div class="card-list" id="popular-list"></div>
+  </div>
+</section>
+<footer class="footer"><div class="container">Cinema 예매 사이트 HTML/CSS 실습</div></footer>
+<script src="js/data.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
